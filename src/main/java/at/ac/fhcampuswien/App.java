@@ -26,7 +26,7 @@ public class App {
 
     //todo Task 3
     public void sumOfLiterals(){
-
+        int sum;
         char num1 = (int) 'Z';
         int num2 = 0xFace;
         int num3 = 012;
@@ -35,9 +35,8 @@ public class App {
         float num6 = (int) 5.5f;
         double num7 = (int) 8.88e1;
         double num8 = (int) 99.9;
-        String sum = String.valueOf(num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8);
-        int sum2 = Math.round(Float.parseFloat(sum));
-        System.out.println(sum2);
+        sum = (int) (num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8);
+        System.out.println(sum);
     }
 
     //todo Task 4
